@@ -124,13 +124,13 @@ bissexto ano
 
 
 main = do
-  putStrLn $ "Func. 1; entrada: 1; Resultado final = " ++ show (soma1 1)
-  putStrLn $ "Func. 2; entrada: 10; Resultado final = " ++ show (sempre 10)
-  putStrLn $ "Func. 3; entrada: 10.6  20.9  30.3; Resultado final = " ++ show (treco 10.6 20.9 30.3)
-  putStrLn $ "Func. 4; entrada: 10  2; Resultado final = " ++ show (resto 10 2)
-  putStrLn $ "Func. 5; entrada: 15  18  9  10; Resultado final = " ++ show (precoMaior 15 18 9 10)
-  putStrLn $ "Func. 6; entrada: 11  3; Resultado final = " ++ show (impar 11 3)
-  putStrLn $ "Func. 7; entrada: 11  3; Resultado final = " ++ show (par 11 3)
-  putStrLn $ "Func. 8; entrada: 11  3  9; Resultado final = " ++ show (conta 11 3 9)
-  putStrLn $ "Func. 9; entrada: 78   1.85; Resultado final = " ++ show (diagnostico 78.5 1.85)
-  putStrLn $ "Func. 10; entrada: 2022; Resultado final = " ++ show (bissexto 2022)
+  putStrLn $ "Func. 1; entrada: 1; resultado = " ++ show (soma1 1)
+  putStrLn $ "Func. 2; entrada: 10; resultado = " ++ show (sempre 10)
+  putStrLn $ "Func. 3; entrada: 10.6  20.9  30.3; resultado = " ++ show (treco 10.6 20.9 30.3)
+  putStrLn $ "Func. 4; entrada: 10  2; resultado = " ++ show (resto 10 2)
+  putStrLn $ "Func. 5; entrada: 15  18  9  10; resultado = " ++ show (precoMaior 15 18 9 10)
+  putStrLn $ "Func. 6; entrada: 11  3; resultado = " ++ show (impar 11 3)
+  putStrLn $ "Func. 7; entrada: 11  3; resultado = " ++ show (par 11 3)
+  putStrLn $ "Func. 8; entrada: 11  3  9; resultado = " ++ show (conta 11 3 9)
+  putStrLn $ "Func. 9; entrada: 78   1.85; resultado = " ++ show (diagnostico 78.5 1.85)
+  putStrLn $ "Func. 10; entrada: 2022; resultado = " ++ show (bissexto 2022)
