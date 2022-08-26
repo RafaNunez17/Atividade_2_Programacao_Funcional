@@ -1,8 +1,8 @@
--- ALUNO: Rafael Vitagliano Tannenbaum Nuñez
+{- ALUNO: Rafael Vitagliano Tannenbaum Nuñez -}
 
 {-
 1. Escreva uma função chamada soma1 que recebe um inteiro como argumento e retorna um
-inteiro uma unidade maior que a entrada.
+inteiro um unidade maior que a entrada.
 -}
 
 soma1 :: Int -> Int
